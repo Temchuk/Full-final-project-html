@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------Початок блок 3-------------------------------------*/
+
+.block-3-section-flex{
+    height: 100vh;
+    width: 100%;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block-3-id-div-width79{
+    width: 79.7vw;
+}
+
+.block-3-h2-OurGallery{
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+
+    margin-bottom: 1.95vh;
+}
+
+.block3-p-txt-coffee{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+
+    margin-bottom: 5.9vh;
+}
+
+.block-3-flex-img-1-6-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-3-flex-img-by3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block-3-img-1-3{
+    width: 25vw;
+    height: 100%;
+    margin: 0 1.04vw 2.9vh 1.04vw;
+}
+
+.block-3-img-4-6{
+    width: 25vw;
+    height: 100%;
+    margin: 0 1.04vw 7.3vh 1.04vw;
+}
+
+.block-3-a-p-LoadMore{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/*-------------------------------------------------Кінець блок 3---------------------------------------*/
+
+/*---------------------------------------------------------Початок блок 4--------------------------------*/
+
+#block-4-id-section{
+    width: 100%;
+    height: 64vh;
+    background-image: url(block-4-bgi.png);
+}
+
+.block-4-class-section-flex, .block-4-all-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block-4-span-FollowUs{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.block-4-h2-txt-inquiry{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+
+    margin-top: 6.3vh;
+    margin-bottom: 5.9vh;
+}
+
+/*---------------- щоб опустити іконку телефону на рівні з номером---------*/
+.block-4-icon-Telephone{
+    margin-bottom: -0.3vh;
+}
+
+.block-4-span-Telephone{
+    color: #FFF;
+    text-align: center;
+
+    /* Subheading / Base */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+
+    margin-left: 1.04vw;
+}
+
+/*-------відступи довкола пошти----*/
+.block-4-a-gmail{
+    margin-bottom: 2.9vh;
+    margin-top: 2.44vh;
+}
+
+.block-4-span-gmail{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    margin-left: 1.08vw;
+}
+
+/*------------ відступи довкола іконок--------*/
+.block-4-class-a-icon-nav{
+    margin: 0 1.4vw 8.6vh 1.4vw;
+    height: 4.9vh;
+    width: 3.5vw;
+}
+/*-------------------------------------------------Кінець блок 4---------------------------------------*/
+
+
+
+
+
+
+
+
+

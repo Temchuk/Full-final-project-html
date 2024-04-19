@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+    /*--------------------------------------------Початок блок 3-------------------------------------*/
+    .block-3-section-flex{
+        height: 100%;
+    }
+
+    .block-3-flex-img-by3{
+        flex-direction: column;
+    }
+
+    .block-3-img-1-3{
+        width: 80vw;
+        height: 100%;
+        margin: 0 1.04vw 2.9vh 1.04vw;
+    }
+
+    .block-3-img-4-6{
+        width: 80vw;
+        height: 100%;
+        margin: 0 1.04vw 2.9vh 1.04vw;
+    }
+    /*-------------------------------------------------Кінець блок 4----------------------------------*/
+
+
+
+
+
+
+}
