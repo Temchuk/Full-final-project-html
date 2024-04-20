@@ -120,7 +120,7 @@ a{
 /*---------------------------------------------------------Початок блок 4--------------------------------*/
 
 #block-4-id-section{
-    height: 64vh;
+    min-height: 64vh;
     background-image: url(./images/follow_us.png);
     background-size: cover;
     background-position: center;
@@ -133,8 +133,8 @@ a{
     align-items: center;
     flex-direction: column;
 
-    margin-top: 12rem;
-    margin-bottom: 13rem;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
 }
 
 .block-4-class-section-flex{
@@ -228,12 +228,12 @@ a{
 
 .block-5-h1 h1 {
     color: #000;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans";
     font-size: 2.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: 3.4rem;
-    letter-spacing: 0.375rem;
+    letter-spacing: 6px;
     margin: 0;
     padding: 0;
 }
@@ -242,7 +242,7 @@ a{
     color: #000;
     text-align: center;
     /* Body / Base */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
@@ -270,7 +270,7 @@ a{
 .block5-product-3-name h2 {
     color: #000;
     /* Heading / Base */
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans";
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
@@ -281,7 +281,7 @@ a{
 .block5-product-2-more p a,
 .block5-product-3-more p a{
     color: #FF4B32;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
@@ -292,7 +292,7 @@ a{
 .block5-product-1-description p,
 .block5-product-3-description p {
     color: #000;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -311,7 +311,7 @@ a{
 .block5-product-1 {
     border-radius: 20px;
     background: #FFF;
-    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
 }
 
 .block-5 {
@@ -353,7 +353,11 @@ a{
 }
 
 .block-6 {
-    background-color:#0D0402;
+    background-image: url('./images/footer.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height:39.6vh;
 }
 
 .block-6-3-text,
@@ -364,7 +368,7 @@ a{
 .block-6-4-upper,
 .block-6-bottom {
     color: #FFF;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
@@ -444,16 +448,29 @@ a{
     height: 22px;
     width: 100%;
 }
-                                                           /*перевірити***************/
+
 .block-6-bottom span {
     color: #FFF;
     text-align: center;
-    /*font-family: Poppins;*/
+    font-family: "Poppins";
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.1rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+.block-6-bottom {
+    padding-bottom:  3.3rem;
+}
+
+.telephone-link {
+    margin-right: 0.5rem;
+}
+
 /*-------------------------------------------------Кінець блок 6---------------------------------------*/
 
 
