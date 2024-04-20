@@ -313,7 +313,6 @@ a{
     background: #FFF;
     box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
 }
-                                                                /*перевести***************/
 
 .block-5 {
     padding-top: 9.5rem;
@@ -441,8 +440,6 @@ a{
     align-items: center;
 }
 
-
-                                                           /*перевести********/
 .space{
     height: 22px;
     width: 100%;
@@ -451,7 +448,7 @@ a{
 .block-6-bottom span {
     color: #FFF;
     text-align: center;
-    /*font-family: Poppins;              */
+    /*font-family: Poppins;*/
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
