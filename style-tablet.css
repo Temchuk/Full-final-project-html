@@ -1,8 +1,116 @@
 @media screen and (min-width: 600px) and (max-width: 1200px) {
 
-    /*--------------------------------------------Початок блок 1-------------------------------------*/
+    /****************************************ПОЧАТОК БЛОК 1********************************************/
 
-    /*-------------------------------------------------Кінець блок 2----------------------------------*/
+    .block_1 {
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/main_banner_2.png');
+        background-size: cover;
+        background-position: center;
+        height: 71.19vh;
+    }
+    .block_1_navigation {
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .block_1_home > a > span {
+        margin: 5px;
+        opacity: 0.5;
+    }
+
+    .block_1_home>a>span:hover {
+        margin: 10px;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+    .block_1_black {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .title {
+        width: 80vw;
+        font-size: 3rem;
+    }
+
+    .text {
+        width: 70vw;
+        opacity: 0.8;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .button {
+        padding: 1rem 1.5rem;
+        border-radius: 1px;
+        font-size: 1rem;
+        width: 8.14rem;
+        white-space: nowrap;
+    }
+    /****************************************КІНЕЦЬ БЛОК 1********************************************/
+
+
+    /****************************************ПОЧАТОК БЛОК 2********************************************/
+
+    .block_2_choice {
+        height: auto;
+        min-width: 79.7vw
+    }
+
+    .block_2_text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 79.7vw;
+        margin: 0 10vw;
+    }
+
+    .block_2_coffee_cost {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 79.7vw;
+        margin: 0 10vw;
+
+    }
+
+    .block_2_coffee_cost img {
+        width: 20.8vw;
+        height: 100%;
+    }
+
+    .block_2_choice h1 {
+        width: 60vw;
+        font-size: 3rem;
+    }
+
+    .block_2_choice p {
+        width: 50vw;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        max-width: 80vw;
+        font-size: 1.6rem;
+        overflow-wrap: break-word;
+    }
+    .block_2_coffee_cost p {
+        color: #000;
+        font-size: 1.3rem;
+        width: 17.8vw;
+        margin: 0;
+    }
 
 
 

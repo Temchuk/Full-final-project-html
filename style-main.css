@@ -32,11 +32,235 @@ a{
 
 
 /*--------------------------------------------Початок блок 1-------------------------------------*/
+/****************************************ПОЧАТОК БЛОК 1********************************************/
 
-/*-------------------------------------------------Кінець блок 2----------------------------------*/
+.block_1 {
+    position: relative;
+    background-image: url('images/main_banner_2.png');
+    background-size: cover;
+    background-position: center;
+    height: 71.19vh;
+}
+.block_1_logo{
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 130%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+}
+.block_1_logo img{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-bottom: 0.9765vh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.block_1_logo>span{
+    margin-left: 0.34722vw;
+    margin-right: 3.4722vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_1_navigation {
+    height: 9.7656vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 37.30vh;
+}
+.block_1_home > a:nth-child(1) > span {
+    color: #FF4B32;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    opacity: 1;
+}
+.block_1_home > a:not(:nth-child(1)) > span{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.block_1_home>a>span{
+    margin: 15px ;
+    opacity: 0.5 ;
+}
+.block_1_home>a>span:hover {
+    margin: 25px ;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.block_1_black{
+    width: 46.53vw;
+    margin-left: 10.07vw;
+
+}
+.title{
+    min-width: 46.39vw;
+    color: #FFF;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 4.2125rem;
+
+}
+.text{
+    width: 45.14vw;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    opacity: 0.8;
+    margin-bottom: 2.25rem;
+}
+.button{
+    padding: 1rem 2rem;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #FF4B32;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    width: 10.28rem;
+
+}
+/****************************************КІНЕЦЬ БЛОК 1********************************************/
+/****************************************ПОЧАТОК БЛОК 2********************************************/
+
+.block_2_choice{
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 3rem;
+    flex-shrink: 0;
+}
+.block_2_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 79.7vw;
+    margin: 0 10vw;
+}
+
+.block_2_coffee_cost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 79.79vw;
+    height: 100%;
+    margin: 0 10vw;
+}
+
+.block_2_coffee_5, .block_2_coffee_4, .block_2_coffee_3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 21.53vw;
+
+}
+.block_2_dollar_price{
+    flex-direction: row;
+}
+
+.block_2_text>h1{
+    width: 40.97vw;
+    color: #000;
+    font-size: 2.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.block_2_text>p{
+    width: 35.14vw;
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    opacity: 0.7;
+    margin-bottom: 5.8593vh;
+
+}
+.block_2_dollar{
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.block_2_price{
+    color: #0C0D0C;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+h2{
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.block_2_coffee_cost p{
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    width: 17.8vw;
+    /*margin:*/
+}
+/****************************************КІНЕЦЬ БЛОК 2********************************************/
 
 /*-------------------------------------------------Початок блок 3-------------------------------------*/
 
