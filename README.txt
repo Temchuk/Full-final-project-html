@@ -50,7 +50,7 @@
 
 Сайт складається з декількох блоків, кожен з яких відображає різні аспекти діяльності компанії.
 
-1. Блок 1 (header): Включає логотип компанії, навігаційне меню та головний заголовок сторінки.
+1. Блок 1 (header + first page): Включає логотип компанії, навігаційне меню та головний заголовок сторінки.
 2. Блок 2 (choice): Представляє кращі пропозиції кави з вказаною ціною.
 3. Блок 3 (gallery): Відображає галерею зображень продукції компанії.
 4. Блок 4 (contact): Надає контактну інформацію компанії для зв'язку.
@@ -119,7 +119,7 @@ This project was worked on by Diana Patzela, Olena Temchuk, and Taras Mazepa.
 
 The website consists of several blocks, each of which displays different aspects of the company's activities.
 
-1. Block 1 (header): Includes the company logo, navigation menu, and main page header.
+1. Block 1 (header + first page): Includes the company logo, navigation menu, and main page header.
 2. Block 2 (choice): Presents the best coffee offers with specified prices.
 3. Block 3 (gallery): Displays a gallery of images of the company's products.
 4. Block 4 (contact): Provides the company's contact information for communication.
