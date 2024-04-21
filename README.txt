@@ -109,9 +109,9 @@ This project is a website for a coffee company. The website is designed to infor
 
 ## Contributors
 
-This project was worked on by Diana Patsela, Olena Temchuk, and Taras Mazepa.
+This project was worked on by Diana Patzela, Olena Temchuk, and Taras Mazepa.
 
-- Diana Patsela: Blocks 1 and 2.
+- Diana Patzela: Blocks 1 and 2.
 - Olena Temchuk: Blocks 2 and 3.
 - Taras Mazepa: Blocks 5 and 6.
 
