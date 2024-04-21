@@ -191,11 +191,11 @@ a{
 
 .block_2_coffee_5, .block_2_coffee_4, .block_2_coffee_3{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 100%;
-    width: 21.53vw;
+    /*width: 21.53vw;*/
 
 }
 .block_2_dollar_price{
