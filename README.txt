@@ -33,6 +33,8 @@
 │ ├── Instagram.png
 │ ├── Linkdin.png
 │ ├── logo.svg
+│ ├── favicon-32x32.png
+│ ├── favicon-16x16.png
 │ └── coffee-cup.png
 └── README.txt
 
@@ -100,6 +102,8 @@ This project is a website for a coffee company. The website is designed to infor
 │ ├── Instagram.png
 │ ├── Linkdin.png
 │ ├── logo.svg
+│ ├── favicon-32x32.png
+│ ├── favicon-16x16.png
 │ └── coffee-cup.png
 └── README.txt
 
