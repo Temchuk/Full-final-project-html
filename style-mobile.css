@@ -309,6 +309,14 @@
     .block-6-4-social img {
         padding-right: 0.2rem;
     }
+
+    .block5-product-1-name h2,
+    .block5-product-2-name h2,
+    .block5-product-3-name h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /*-------------------------------------------------Кінець блок 6----------------------------------*/
 
 }
